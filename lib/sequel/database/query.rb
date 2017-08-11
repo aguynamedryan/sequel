@@ -4,7 +4,7 @@ module Sequel
   class Database
     # ---------------------
     # :section: 1 - Methods that execute queries and/or return results
-    # This methods generally execute SQL code on the database server.
+    # These methods generally execute SQL code on the database server.
     # ---------------------
 
     COLUMN_SCHEMA_DATETIME_TYPES = [:date, :datetime].freeze
